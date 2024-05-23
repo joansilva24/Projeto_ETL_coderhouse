@@ -67,3 +67,4 @@ import sqlite3
 conn = sqlite3.connect('DataBase')
 bancos.to_sql('Bancos',conn,if_exists='replace',index=False)
 conn.close()
+
